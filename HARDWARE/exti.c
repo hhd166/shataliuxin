@@ -1,12 +1,11 @@
-#include "exti.h"
 #include "stm32f10x_exti.h"
 
 u8 EXTI_STATUS=0;
 u16 EXTI_TIME=0;
 u16 EXTI_DISTANCE=0;
 
-
-void EXTIX_Init(void)
+																
+void EXTI4_Init(void)
 {
 	
 	GPIO_InitTypeDef  GPIO_InitStructure;

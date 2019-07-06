@@ -1,10 +1,10 @@
 #ifndef __KEY_H
 #define __KEY_H	 
-#include "sys.h"
+
    
-void key_init(void);//³õÊ¼»¯
-int KEY1_STATUS(void);//·µ»ØKEY1×´Ì¬
-int KEY2_STATUS(void);//·µ»ØKEY2×´Ì¬
+void key_Init(void);
+int key1_STATUS(void);//PE3
+int key2_STATUS(void);//PE4
     
 								
 #endif

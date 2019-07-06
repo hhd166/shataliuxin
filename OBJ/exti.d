@@ -3,7 +3,7 @@
 ..\obj\exti.o: ..\STM32F103_FWLib\inc\stm32f10x_exti.h
 ..\obj\exti.o: ..\USER\stm32f10x.h
 ..\obj\exti.o: ..\CORE\core_cm3.h
-..\obj\exti.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\exti.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\exti.o: ..\USER\system_stm32f10x.h
 ..\obj\exti.o: ..\USER\stm32f10x_conf.h
 ..\obj\exti.o: ..\STM32F103_FWLib\inc\stm32f10x_adc.h

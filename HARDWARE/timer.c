@@ -1,4 +1,6 @@
-#include "timer.h"
+#include "sys.h"
+#include "led.h"
+#include "key.h"
 #include "output.h"
 
 extern u8 EXTI_STATUS;
@@ -11,8 +13,8 @@ extern u8 EXTI_STATUS;
 //本例程中timer3 10us触发一次
 
 u8 counter=0,i=0;
-
-void timer3_init(u16 arr,u16 psc)
+																				
+void timer3_Init(u16 arr,u16 psc)
 {
 	
   TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
@@ -33,7 +35,7 @@ void timer3_init(u16 arr,u16 psc)
 	
 }
  
-void timer3_IRQ_init()
+void timer3_IRQ_Init()
 {
 	NVIC_InitTypeDef NVIC_InitStructure;
 		
@@ -52,7 +54,7 @@ void timer3_IRQ_init()
 //TIM_CKD_DIV1：时钟总线频率设置为72M
 //TIM_CounterMode_Up：向上计数
 //本例程中timer4 10ms触发一次
-void timer4_init(u16 arr,u16 psc)
+void timer4_Init(u16 arr,u16 psc)
 {
 	
   TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
@@ -73,7 +75,7 @@ void timer4_init(u16 arr,u16 psc)
 	
 }
 
-void timer4_IRQ_init()
+void timer4_IRQ_Init()
 {
 	NVIC_InitTypeDef NVIC_InitStructure;
 		
