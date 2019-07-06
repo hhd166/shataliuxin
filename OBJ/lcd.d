@@ -2,7 +2,7 @@
 ..\obj\lcd.o: ..\HARDWARE\lcd.h
 ..\obj\lcd.o: ..\USER\stm32f10x.h
 ..\obj\lcd.o: ..\CORE\core_cm3.h
-..\obj\lcd.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\lcd.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\lcd.o: ..\USER\system_stm32f10x.h
 ..\obj\lcd.o: ..\USER\stm32f10x_conf.h
 ..\obj\lcd.o: ..\STM32F103_FWLib\inc\stm32f10x_adc.h
@@ -29,8 +29,8 @@
 ..\obj\lcd.o: ..\STM32F103_FWLib\inc\stm32f10x_usart.h
 ..\obj\lcd.o: ..\STM32F103_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\lcd.o: ..\STM32F103_FWLib\inc\misc.h
-..\obj\lcd.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\lcd.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\lcd.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\lcd.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\lcd.o: ..\HARDWARE\font.h
 ..\obj\lcd.o: ..\HARDWARE\usart.h
 ..\obj\lcd.o: ..\SYSTEM\delay\delay.h

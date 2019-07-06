@@ -1,9 +1,8 @@
 ..\obj\output.o: ..\HARDWARE\output.c
-..\obj\output.o: ..\HARDWARE\output.h
 ..\obj\output.o: ..\SYSTEM\sys\sys.h
 ..\obj\output.o: ..\USER\stm32f10x.h
 ..\obj\output.o: ..\CORE\core_cm3.h
-..\obj\output.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\output.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\output.o: ..\USER\system_stm32f10x.h
 ..\obj\output.o: ..\USER\stm32f10x_conf.h
 ..\obj\output.o: ..\STM32F103_FWLib\inc\stm32f10x_adc.h

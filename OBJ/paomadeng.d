@@ -2,7 +2,7 @@
 ..\obj\paomadeng.o: ..\SYSTEM\sys\sys.h
 ..\obj\paomadeng.o: ..\USER\stm32f10x.h
 ..\obj\paomadeng.o: ..\CORE\core_cm3.h
-..\obj\paomadeng.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\paomadeng.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\paomadeng.o: ..\USER\system_stm32f10x.h
 ..\obj\paomadeng.o: ..\USER\stm32f10x_conf.h
 ..\obj\paomadeng.o: ..\STM32F103_FWLib\inc\stm32f10x_adc.h

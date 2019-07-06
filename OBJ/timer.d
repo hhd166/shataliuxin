@@ -1,9 +1,8 @@
 ..\obj\timer.o: ..\HARDWARE\timer.c
-..\obj\timer.o: ..\HARDWARE\timer.h
 ..\obj\timer.o: ..\SYSTEM\sys\sys.h
 ..\obj\timer.o: ..\USER\stm32f10x.h
 ..\obj\timer.o: ..\CORE\core_cm3.h
-..\obj\timer.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\timer.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\timer.o: ..\USER\system_stm32f10x.h
 ..\obj\timer.o: ..\USER\stm32f10x_conf.h
 ..\obj\timer.o: ..\STM32F103_FWLib\inc\stm32f10x_adc.h
