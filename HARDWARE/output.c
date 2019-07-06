@@ -1,8 +1,8 @@
-#include "output.h"
+#include "sys.h"
 
-//LED的IO口初始化程序
+//LED的IO口初始化程序								
 void OUTPUT1_Init(void)
-{
+{																						
  
  GPIO_InitTypeDef  GPIO_InitStructure;
  	

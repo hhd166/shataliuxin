@@ -2,6 +2,7 @@
 #define __LCD_H		
 #include "stm32f10x.h"
 #include "stdlib.h"
+
 //////////////////////////////////////////////////////////////////////////////////	 
 //LCD重要参数集
 typedef struct  
@@ -23,6 +24,7 @@ extern u16  BACK_COLOR; //背景颜色.默认为白色
 
 
 //////////////////////////////////////////////////////////////////////////////////	 
+
 //-----------------LCD端口定义----------------  
 #define LCD_LED_OFF GPIO_SetBits(GPIOB,GPIO_Pin_0)
 #define LCD_LED_ON GPIO_ResetBits(GPIOB,GPIO_Pin_0)
@@ -105,6 +107,8 @@ void LCD_WriteRAM(u16 RGB_Code);
 void LCD_Scan_Dir(u8 dir);							//设置屏扫描方向
 void LCD_Display_Dir(u8 dir);						//设置屏幕显示方向
 void LCD_Set_Window(u16 sx,u16 sy,u16 width,u16 height);//设置窗口					   																			 
+
+
 //9320/9325 LCD寄存器  
 #define R0             0x00
 #define R1             0x01

@@ -1,9 +1,18 @@
 #ifndef __OUTPUT_H
 #define __OUTPUT_H	 
-#include "sys.h"
  
 
+/*---------------------
+
+配置用GPIO口：
+推挽（PP） PA10~15
+
+---------------------*/
+
+
 void OUTPUT1_Init(void);//初始化
+
+
 
 void PA10_OUT(void);
 void PA10_DOWN(void);
